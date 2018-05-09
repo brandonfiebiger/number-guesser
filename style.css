@@ -1,0 +1,139 @@
+header{
+  background-color:#404041;
+  text-align: center;
+  position:relative;
+  bottom: 80px;
+}
+
+#numberhead{
+  color:#ED458B;
+  position:relative;
+  right:130px;
+  top:68px;
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+#guesser{
+  color:#E6E7E8;
+  position:relative;
+  left:155px;
+  bottom:75px;
+  font-size:70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.button:hover{
+  background-color:#EB008B;
+
+}
+
+form{
+  text-align:center;
+}
+
+section{
+  text-align:center;
+}
+
+.button{
+  width:150px;
+  height:40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color:#D0D2D3;
+  border-radius: 25px; 
+  margin: 2%;
+  position: relative;
+  bottom: 30px;
+  font-size:20px;
+  color: white;
+}
+
+footer{
+  text-align:center;
+  position:relative;
+  bottom:30px;
+}
+
+.button{
+  background-color:#929497; 
+}
+
+#lastGuess{
+  font-size: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:#ED458B;
+  position: absolute;
+  bottom: 160px;
+  left: 45%;
+  margin: 0px;
+  text-align:center;
+}
+
+#lastGuessHead{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  position:relative;
+  bottom: 30px;
+  margin: 0px;
+}
+
+#userInput{
+  width: 30%;
+  height:30px;
+  position:relative;
+  bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#resetButton{
+  width: 400px;
+  position:relative;
+  top: 240px;
+}
+
+#higherOrLower{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  position:relative;
+  top: 220px;
+  left: 25px;
+  margin: 0px auto;
+}
+.button:hover{
+  background-color:#D83089; 
+
+}
+.button:disabled{
+  background-color: #D0D2D3;
+}
+
+.minAndMax{
+    width: 150px;
+  height:30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  position:relative;
+  top:230px;
+}
+
+#userMin{
+  
+}
+#userMax{
+  
+}
+#minMaxSubmit{
+  
+}
+
+
+
