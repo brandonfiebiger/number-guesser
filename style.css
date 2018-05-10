@@ -70,7 +70,7 @@ footer{
   font-weight: 300;
   color:#ED458B;
   position: absolute;
-  bottom: 160px;
+  top: 130px;
   left: 45%;
   margin: 0px;
   text-align:center;
@@ -118,7 +118,7 @@ footer{
 }
 
 .minAndMax{
-    width: 150px;
+  width: 150px;
   height:30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -138,6 +138,7 @@ footer{
 
 #minMaxSubmit{
   background-color: #929497;
+  color: #FFFFFF;
 }
 
 div{

@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>Number Guesser</title>
-  <link rel="stylesheet"
-  type="text/css"
-  href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
- </head>
- <body>
-  <header>
-   <h1 id="numberhead">Number</h1>
-   <h1 id="guesser">Guesser</h1>
-  </header>
- <div>
- <section>
-  <form>
-  <section>
-   <input type="number" placeholder="Enter your guess"
-  id="userInput">
- </section>
-  <input type="button" 
-  value="Guess"
-  class="button"
-  id="guessButton"
-  disabled="true">
-  <input type="button" 
-  value="Clear"
-  class="button"
-  id="clearButton"
-  disabled="true">
-</form>
-  <h1 id ="lastGuessHead"> Your last guess was </h1>
-  <p id="lastGuess"></p>
-</section>
-<footer>
- <p id="higherOrLower"></p>
- <input type="number" placeholder="Enter Min" class="minAndMax" id="userMin">
- <input type="number" placeholder="Enter Max" class="minAndMax" id="userMax">
-  <input type="button" value="submit" id="minMaxSubmit" class="minAndMax" disabled="true">
-  <br>
-  <input type="button" 
-  value="reset"
-  class="button"
-  id="resetButton"
-  disabled="true">
-</footer>
-</div>
-<script type="text/javascript" src="script.js">
-  </script>
-</body>
+  <head>
+    <title>Number Guesser</title>
+    <link rel="stylesheet"
+      type="text/css"
+      href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 id="numberhead">Number</h1>
+      <h1 id="guesser">Guesser</h1>
+    </header>
+    <div>
+      <section>
+        <form>
+          <section>
+            <input type="number" placeholder="Enter your guess"
+              id="userInput">
+          </section>
+          <input type="button" 
+            value="Guess"
+            class="button"
+            id="guessButton"
+            disabled="true">
+          <input type="button" 
+            value="Clear"
+            class="button"
+            id="clearButton"
+            disabled="true">
+        </form>
+        <h1 id ="lastGuessHead"> Your last guess was </h1>
+        <p id="lastGuess"></p>
+      </section>
+      <footer>
+        <p id="higherOrLower"></p>
+        <input type="number" placeholder="Enter Min" class="minAndMax" id="userMin">
+        <input type="number" placeholder="Enter Max" class="minAndMax" id="userMax">
+        <input type="button" value="submit" id="minMaxSubmit" class="minAndMax" disabled="true">
+        <br>
+        <input type="button" 
+          value="reset"
+          class="button"
+          id="resetButton"
+          disabled="true">
+      </footer>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
