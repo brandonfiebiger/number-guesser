@@ -12,6 +12,7 @@
    <h1 id="numberhead">Number</h1>
    <h1 id="guesser">Guesser</h1>
   </header>
+ <div>
  <section>
   <form>
   <section>
@@ -34,9 +35,9 @@
 </section>
 <footer>
  <p id="higherOrLower"></p>
+ <input type="number" placeholder="Enter Min" class="minAndMax" id="userMin">
  <input type="number" placeholder="Enter Max" class="minAndMax" id="userMax">
-  <input type="number" placeholder="Enter Min" class="minAndMax" id="userMin">
-  <input type="button" value="submit" id="minMaxSubmit" class="minAndMax">
+  <input type="button" value="submit" id="minMaxSubmit" class="minAndMax" disabled="true">
   <br>
   <input type="button" 
   value="reset"
@@ -44,6 +45,7 @@
   id="resetButton"
   disabled="true">
 </footer>
+</div>
 <script type="text/javascript" src="script.js">
   </script>
 </body>

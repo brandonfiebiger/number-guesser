@@ -127,15 +127,21 @@ footer{
   top:230px;
 }
 
-#userMin{
-  
+#minMaxSubmit:disabled{
+  background-color:#D0D2D3;
+  border-radius: 15px;
 }
-#userMax{
-  
+
+#minMaxSubmit:hover{
+  background-color: #D83089; 
 }
+
 #minMaxSubmit{
-  
+  background-color: #929497;
 }
 
-
+div{
+  position: relative;
+  bottom:25px;
+}
 

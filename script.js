@@ -12,6 +12,7 @@ var higherOrLower = document.querySelector('#higherOrLower');
 var higherThanZero = "You must guess a number higher than zero.";
 var userMaxInput = document.querySelector('#userMax');
 var maxMinSubmit = document.querySelector('#minMaxSubmit');
+var userMinInput = document.querySelector('#userMin');
 
 function disableButton(){
   
@@ -32,6 +33,7 @@ guessButton.addEventListener('click',
     lastGuess.innerText = userInput.value;
     var userGuess = parseInt(userInput.value);
     troubleShoot(userGuess);
+   
 
 
   });
@@ -41,6 +43,10 @@ userInput.addEventListener('keyup',
   );
 
 
+userMinInput.addEventListener('keyup',
+  disableSubmit
+  );
+
 clearButton.addEventListener('click',
   function() {
   userInput.value = ("");
@@ -48,7 +54,7 @@ clearButton.addEventListener('click',
 
 resetButton.addEventListener('click',
   function() {
-    randomNumber = Math.floor(Math.random() * maxNum + 1);
+    randomNumber = Math.floor(Math.random() * maxNum  + 1);
     userInput.value = ("");
     lastGuess.innerText = userInput.value;
     higherOrLower.innerText = '';
@@ -70,6 +76,24 @@ function troubleShoot(userInput) {
   }
 
   }
+
+maxMinSubmit.addEventListener('click',
+  function() {
+    maxNum = parseInt(userMaxInput.value);
+    minNum = parseInt(userMinInput.value);
+    randomNumber = Math.floor(Math.random() * (maxNum - minNum) + minNum);
+    console.log(randomNumber);
+
+  });
+
+function disableSubmit() {
+  if (userMinInput.value === "" || userMaxInput === "") {
+    maxMinSubmit.setAttribute('disabled','disabled');
+  } 
+  else {
+    maxMinSubmit.removeAttribute('disabled');
+  }
+};
 
 
 
